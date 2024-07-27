@@ -10,6 +10,7 @@ const Home = () => {
 
             <div className='homePage' >
                 <HeroBanner />
+                <div style={{height:"1000px"}} ></div>
             </div>
 
         </>
