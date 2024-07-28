@@ -1,6 +1,7 @@
-import React from 'react'
-import './Home.scss'
-import HeroBanner from './heroBanner/HeroBanner'
+import React from 'react';
+import './Home.scss';
+import HeroBanner from './heroBanner/HeroBanner';
+import Trending from './trending/Trending';
 
 
 
@@ -10,7 +11,8 @@ const Home = () => {
 
             <div className='homePage' >
                 <HeroBanner />
-                <div style={{height:"1000px"}} ></div>
+                <Trending />
+                <div style={{ height: "1000px" }} ></div>
             </div>
 
         </>
